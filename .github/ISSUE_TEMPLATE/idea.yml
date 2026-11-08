@@ -1,0 +1,19 @@
+name: 功能建议
+description: 想要的新功能，或者现有功能可以怎么改
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: 这里公开可见，请不要填写手机号、邮箱或其他敏感信息。
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你的想法
+      description: 想做到什么，现在哪里不方便
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: 补充
+      description: 截图、参考或者使用场景

@@ -1,0 +1,10 @@
+title: 拼豆码头
+description: 拼豆码头的隐私政策和问题反馈
+lang: zh-CN
+exclude:
+  - README.md
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
